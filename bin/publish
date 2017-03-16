@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+echo "publish as version $1, ok?"
+read
+
+vagrant halt
+vagrant package
+atlas-publish/publish.sh $(cat ~/.atlas_token) matti better-bento-ubuntu-16.04 $1

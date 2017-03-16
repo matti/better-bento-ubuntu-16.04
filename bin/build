@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+vagrant destroy --force
+vagrant up
