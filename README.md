@@ -1,4 +1,4 @@
-# better-bento/ubuntu-16.04
+# matti/better-bento-ubuntu-16.04
 
 ```
 bin/build
