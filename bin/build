@@ -1,4 +1,5 @@
 #!/usr/bin/env sh
 
 vagrant destroy --force
+vagrant box update
 vagrant up
