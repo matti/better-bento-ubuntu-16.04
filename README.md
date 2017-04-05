@@ -1,11 +1,11 @@
 # matti/better-bento-ubuntu-16.04
 
 ```
-bin/build
-bin/publish 0.0.xxx
+VM_NAME=virtualbox bin/build
+VM_NAME=virtualbox bin/publish 0.0.xxx
 ```
 
 ```
 cd test/local|remote
-vagrant up
+VM_NAME=virtualbox vagrant up
 ```
